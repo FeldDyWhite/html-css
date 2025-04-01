@@ -1,0 +1,9 @@
+@font-face{
+	font-family: anja;
+	src: url(fonts\Anja Eliane accent002.ttf) format('truetype');
+}
+
+*{
+	font-family: anja;
+	background-color: red;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fontes Externas</title>
+	<style>
+		@font-face{
+			font-family: 'Anja'; /*Declara o nome da fonte personalizada*/
+			src: url('fonts/Anja Eliane accent002.ttf') format('truetype'); /*Define o local da fonte e o tipo dela*/
+			font-weight: normal;
+			font-style: normal;
+			/*
+			Tipos de Formats
+			- opentype (otf)
+			- truetype (ttf)
+			- embedded-opentype
+			- truetype-aat (Apple Advanced Typography)
+			- svg
+			*/
+		}
+		body{
+			font-family: Arial;
+			
+		}
+		h1{
+			font-family: 'Anja',Times;
+			font-size: 3em;
+			font-weight: normal /*Confirma que a fonte não vai ficar em negrito*/;
+		}
+	</style>
+</head>
+<body>
+	<h1>Hello World!</h1>
+</body>
+</html>
