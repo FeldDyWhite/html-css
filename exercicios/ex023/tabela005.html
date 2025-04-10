@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercicio de Tabelas</title>
+	<style type="text/css">
+		body{
+			font-family: Arial;
+		}
+
+		table{
+			border-collapse: collapse;
+		}
+
+		caption{
+			font-size: 1.3em;
+			font-weight: bold;
+			padding: 10px;
+		}
+
+		th,td{
+			border: 1px solid lightcoral;
+			padding: 10px;
+		}
+		/*
+		tr.destaque{
+			background-color: chartreuse;
+		}
+		*/
+	</style>
+</head>
+<body>
+	<h1>Exercicio Tabelas</h1>
+
+	<table>
+		<colgroup>
+			<col>
+			<col>
+			<col>
+			<col>
+		</colgroup>
+		<caption>Cadastro</caption>
+		<tr>
+			<th scope="col">Nome</th>
+			<th scope="col">Sexo</th>
+			<th scope="col">Idade</th>
+			<th scope="col"> Profissao</th>
+		</tr>
+		<tr>
+			<td>Ana Maria</td>
+			<td>F</td>
+			<td>25</td>
+			<td>Jornalista</td>
+		</tr>
+		<tr>
+			<td>Claudinho</td>
+			<td>M</td>
+			<td>28</td>
+			<td>Programador</td>
+		</tr>
+		<tr class="destaque">
+			<td>Gustavo</td>
+			<td>M</td>
+			<td>42</td>
+			<td>Professor</td>
+		</tr>
+		<tr>
+			<td>Helio</td>
+			<td>M</td>
+			<td>19</td>
+			<td>Vendedor</td>
+		</tr>
+		<tr>
+			<td>Maria</td>
+			<td>F</td>
+			<td>39</td>
+			<td>Medica</td>
+		</tr>
+		<tr>
+			<td>Otavio</td>
+			<td>M</td>
+			<td>22</td>
+			<td>Nutricionista</td>
+		</tr>
+	</table>
+</body>
+</html>
